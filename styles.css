@@ -6,31 +6,28 @@ body {
     color: #ffffff;
 }
 
+/* Navbar styling */
 nav {
-    background-color: #181818;
-    padding: 10px 20px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
+    background-color: #f8f9fa; /* Adjust background color as needed */
+    text-align: center; /* Center-align the text */
 }
 
 nav ul {
     list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    display: inline-block; /* Make the ul element inline-block to center */
 }
 
 nav ul li {
-    margin: 0 15px;
+    display: inline; /* Display list items inline for horizontal layout */
+    margin: 0 15px; /* Adjust margin between items */
 }
 
 nav ul li a {
-    color: #ffffff;
     text-decoration: none;
-    font-weight: bold;
+    color: #333; /* Adjust link color as needed */
+    font-size: 16px; /* Adjust font size as needed */
 }
 
 main {
