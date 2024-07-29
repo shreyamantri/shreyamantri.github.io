@@ -55,7 +55,7 @@ main {
 }
 
 .intro-text h1 span {
-    color: #f39c12;
+    color: #ffffff;
 }
 
 .intro-text p {
@@ -64,7 +64,7 @@ main {
 }
 
 .intro-text a {
-    color: #f39c12;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
 }
