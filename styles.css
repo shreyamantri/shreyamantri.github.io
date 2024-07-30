@@ -9,8 +9,7 @@ body {
 /* Navbar styling */
 nav {
     background-color: #181818;
-    color: #7f8c8d;
-    text-align: center; /* Center-align the text */
+    text-align: center;
     padding: 10px 0;
 }
 
@@ -18,23 +17,23 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: inline;
+    display: flex;
     justify-content: center;
 }
 
 nav ul li {
-    /**display: inline; /* Display list items inline for horizontal layout */
-    margin: 0 20px; /* Adjust margin between items */
+    margin: 0 20px;
 }
 
 nav ul li:first-child {
-    margin-right: 1000px; /* Adjust the spacing between the first item and others
+    margin-right: 40px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #7f8c8d !important;
-    font-size: 16px; /* Adjust font size as needed */
+    color: #7f8c8d;
+    font-size: 16px;
+    font-weight: bold; /* Add bold styling to the links */
 }
 
 main {
@@ -58,10 +57,6 @@ main {
 .intro-text h1 {
     font-size: 2.5em;
     margin-bottom: 0.5em;
-}
-
-.intro-text h1 span {
-    color: #ffffff;
 }
 
 .intro-text p {
@@ -88,7 +83,7 @@ footer {
     text-align: center;
     padding: 20px;
     background-color: #181818;
-    color: #7f8c8d !important;
+    color: #7f8c8d;
     position: fixed;
     width: 100%;
     bottom: 0;
