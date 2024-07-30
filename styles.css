@@ -15,7 +15,7 @@ nav {
 
 nav ul {
     list-style: none;
-    padding: 0;
+    padding: 15px;
     margin: 0;
     display: inline-block; /* Make the ul element inline-block to center */
 }
