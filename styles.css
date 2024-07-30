@@ -11,23 +11,25 @@ nav {
     background-color: #181818;
     color: #7f8c8d;
     text-align: center; /* Center-align the text */
+    padding: 10px 0;
 }
 
 nav ul {
     list-style: none;
-    padding: 15px;
+    padding: 0;
     margin: 0;
-    display: inline-block; /* Make the ul element inline-block to center */
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline; /* Display list items inline for horizontal layout */
-    margin: 0 15px; /* Adjust margin between items */
+    /**display: inline; /* Display list items inline for horizontal layout */
+    margin: 0 20px; /* Adjust margin between items */
 }
 
-nav ul li:first-child {
-    margin-right: 250px; /* Adjust the spacing between the first item and others */
-}
+/**nav ul li:first-child {
+    margin-right: 1000px; /* Adjust the spacing between the first item and others
+}*/
 
 nav ul li a {
     text-decoration: none;
