@@ -26,7 +26,7 @@ nav ul li {
 }
 
 nav ul li:first-child {
-    margin-right: 50px; /* Adjust the spacing between the first item and others */
+    margin-right: 250px; /* Adjust the spacing between the first item and others */
 }
 
 nav ul li a {
