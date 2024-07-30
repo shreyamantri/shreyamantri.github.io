@@ -31,5 +31,17 @@
     <footer>
         <p>© Copyright 2024 Shreya Mantripragada. Last updated: July 17, 2024.</p>
     </footer>
+
+    <script>
+        const navList = document.getElementById('nav-list');
+        const currentPath = window.location.pathname;
+
+        if (!currentPath.endsWith('index.html') && currentPath != '/') {
+            const homeLink = document.createElement('li');
+            homeLink.innerHTML = '<a href="../index.html"><b>Shreya</b> Mantripragada</a>';
+            navList.insertBefore(homeLink, navList.firstChild);
+        }
+    </script>
+
 </body>
 </html>
