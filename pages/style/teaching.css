@@ -26,9 +26,9 @@ nav ul li {
     margin: 0 20px;
 }
 
-nav ul li:first-child {
+/**nav ul li:first-child {
     margin-right: auto;
-}
+}*/
 
 nav ul li a {
     text-decoration: none;
