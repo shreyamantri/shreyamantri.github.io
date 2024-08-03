@@ -37,6 +37,7 @@
         const currentPath = window.location.pathname;
 
         if (!currentPath.endsWith('index.html') && currentPath != '/') {
+            console.log('entered inside');
             const homeLink = document.createElement('li');
             homeLink.innerHTML = '<a href="../index.html"><b>Shreya</b> Mantripragada</a>';
             navList.insertBefore(homeLink, navList.firstChild);
