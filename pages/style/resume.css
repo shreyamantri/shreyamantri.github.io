@@ -27,10 +27,6 @@ nav ul li {
     margin: 0 20px;
 }
 
-/**nav ul li:first-child {
-    margin-right: auto;
-}*/
-
 nav ul li a {
     text-decoration: none;
     color: #7f8c8d;
@@ -43,6 +39,7 @@ nav ul li a {
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
+    color: #000; /* Change text color to black for readability */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
