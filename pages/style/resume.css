@@ -1,9 +1,10 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     background-color: #202020;
     color: #ffffff;
+    line-height: 1.6;
 }
 
 /* Navbar styling */
@@ -35,6 +36,54 @@ nav ul li a {
     color: #7f8c8d;
     font-size: 16px;
     font-weight: bold;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    text-align: center;
+    color: #333;
+}
+
+.experience {
+    margin-top: 20px;
+}
+
+.entry {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.entry h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.entry h3 {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.date {
+    font-size: 0.9em;
+    color: #777;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
 }
 
 main {
